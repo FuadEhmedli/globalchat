@@ -1,7 +1,7 @@
-//@codewithcurious.com
 
 
-// Function to handle sending a message
+
+
 function sendMessage() {
     const messageInput = document.getElementById('message-input');
     const message = messageInput.value.trim();
@@ -16,7 +16,7 @@ function sendMessage() {
     }
   }
   
-  // Event listener
+
   document.getElementById('send-button').addEventListener('click', sendMessage);
   document.getElementById('message-input').addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
